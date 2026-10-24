@@ -162,7 +162,3 @@ Not deployed. There is no public URL.
 Customer pass: open 15 January 2026. At 09:20 the scored issue is 14 January 07:30 GMT. The noon publication chart shows later issues, and they are not used for that score. Bias is positive, so the forecast was high. The score is not a buy quantity. Changing the accuracy window to the week or to all of January changes the lower section only. The cards and the day chart stay on 15 January.
 
 Technical pass: FUELHH is half-hourly and the hourly actual is the mean of the two halves. WINDFOR is hourly and joins on the UTC start. The deadline is converted with `Europe/London`. Pinning an issue changes the day view. The accuracy section stays on the deadline. Tests use a fake Elexon client. The freshness line says whether the payload was live or cached.
-
-## Assistance
-
-Cursor, using Grok 4.7, assisted with the implementation, tests, and this note. The figures above were checked against the Elexon responses, not invented as sample output.
