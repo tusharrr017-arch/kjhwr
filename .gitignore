@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+.env
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+frontend_modules/
+.env.*
+!.env.example
