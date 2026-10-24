@@ -143,7 +143,10 @@ Run on 24 October 2026:
 
 ## Deployment
 
-Not deployed. There is no public URL.
+The desk is deployed and responding.
+
+- Frontend: https://kjhwr-1-s5we.onrender.com/
+- API health: https://kjhwr-6ic6.onrender.com/api/health
 
 `render.yaml` describes a Python 3.12 web service with root directory `backend`, start command `uvicorn`, and health check `/api/health`. `frontend/vercel.json` builds the Vite app to `dist`. When those hosts are used, set `VITE_API_BASE_URL` to the API origin with no trailing slash, and set `CORS_ORIGINS` to the frontend origin.
 
